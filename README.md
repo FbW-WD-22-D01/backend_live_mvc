@@ -2,7 +2,7 @@
 
 Vorgehen:
 1. Express Server Boilerplate in server.js bauen
-    - "type": "module" in `package.json`
+    - `"type": "module"` in `package.json`
     - install & import der express app
     - `const app=express()`
     - `app.listen(PORT, () => console.log('Fancy server running on ', PORT ))`
