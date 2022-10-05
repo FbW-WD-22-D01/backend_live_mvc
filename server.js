@@ -8,10 +8,7 @@ const PORT = 5000
 const app = express()
 
 
-app.get('/',(req, res) => {
-    const products = showAllProducts() //controller aufrufen
-    res.send(products)
-})
+app.get('/',(req, res) =>  showAllProducts(req, res)) //controller aufrufen)
 
 
 app.listen(PORT, () => console.log(`Server is running ${PORT}`))
